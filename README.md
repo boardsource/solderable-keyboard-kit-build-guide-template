@@ -1,0 +1,1 @@
+# solderable-keyboard-kit-build-guide-template
