@@ -27,7 +27,9 @@ Find and replace tags:
     - this is the number of switches : int
 * ```CONTROLLERCOUNT```
     - this is the number of controllers : int
+
 Images needed:
+
 * ```NULLEDCOMPONETSIMAGE```
     - url
 * ```DIODECLOSEUPIMG1```
@@ -53,7 +55,7 @@ Images needed:
 * ```LEDCLOSEUPIMG5```
     - perkey finished:url
 * ```CONTROLLERCLOSEUPIMG1```
-    -header pins:url
+    - header pins:url
 * ```CONTROLLERCLOSEUPIMG2```
     - placed:url
 * ```CONTROLLERCLOSEUPIMG3```
