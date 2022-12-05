@@ -27,53 +27,54 @@ Find and replace tags:
     - this is the number of switches : int
 * ```CONTROLLERCOUNT```
     - this is the number of controllers : int
+Images needed:
 * ```NULLEDCOMPONETSIMAGE```
-    -url
+    - url
 * ```DIODECLOSEUPIMG1```
-    -close up of diode orientation:url
+    - close up of diode orientation:url
 * ```DIODECLOSEUPIMG2```
-    -close up of diode half soldered:url
+    - close up of diode half soldered:url
 * ```DIODECLOSEUPIMG3```
-    -diode finished:url
+    - diode finished:url
 * ```LEDORDERIMG```
-    -led order of image:url
+    - led order of image:url
 * ```LEDORIENTATIONIMG1```
-    -perkey:url
+    - perkey:url
 * ```LEDORIENTATIONIMG2```
-    -underglow:url
+    - underglow:url
 * ```LEDCLOSEUPIMG1```
-    -perkeypads soldered:url
+    - perkeypads soldered:url
 * ```LEDCLOSEUPIMG2```
-    -underglow pads soldered:url
+    - underglow pads soldered:url
 * ```LEDCLOSEUPIMG3```
-    -perkey placed:url
+    - perkey placed:url
 * ```LEDCLOSEUPIMG4```
-    -underglow placed:url
+    - underglow placed:url
 * ```LEDCLOSEUPIMG5```
-    -perkey finished:url
+    - perkey finished:url
 * ```CONTROLLERCLOSEUPIMG1```
     -header pins:url
 * ```CONTROLLERCLOSEUPIMG2```
-    -placed:url
+    - placed:url
 * ```CONTROLLERCLOSEUPIMG3```
-    -finished:url
+    - finished:url
 * ```OLEDCLOSEUPIMG1```
-    -placed:url
+    - placed:url
 * ```OLEDCLOSEUPIMG2```
-    -one pin soldered:url
+    - one pin soldered:url
 * ```OLEDCLOSEUPIMG3```
-    -finished:url
+    - finished:url
 * ```TRRSCLOSEUPIMG1```
-    -placed:url
+    - placed:url
 * ```TRRSCLOSEUPIMG2```
-    -finished:url
+    - finished:url
 * ```RESETCLOSEUPIMG1```
-    -one pin soldered:url
+    - one pin soldered:url
 * ```RESETCLOSEUPIMG2```
-    -finished:url
+    - finished:url
 * ```SOCKETCLOSEUPIMG1```
-    -one pad solder:url
+    - one pad solder:url
 * ```SOCKETCLOSEUPIMG2```
-    -placed and reflowed:url
+    - placed and reflowed:url
 * ```SOCKETCLOSEUPIMG3```
-    -finished:url
+    - finished:url
