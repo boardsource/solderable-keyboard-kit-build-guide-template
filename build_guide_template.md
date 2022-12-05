@@ -92,7 +92,7 @@ you may need to reflow and add more solder a couple times before an adequate con
 ### Reset switches
 1. Solder one pad.
 ![reset switch placed](RESETCLOSEUPIMG1)
-2. While holding switch with tweezers, refolw solder and place switch down on pad.
+2. While holding switch with tweezers, reflow solder and place switch down on pad.
 3. Solder remaining pads.
 ![reset switch placed](RESETCLOSEUPIMG2)
 
