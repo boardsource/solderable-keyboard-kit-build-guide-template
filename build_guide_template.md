@@ -27,7 +27,7 @@
 
 # Soldering
 ## Diodes
-**Orientation**: Black bar facing downwards or towards the microcontroller.
+**Orientation**: Black bar facing downwards or towards the footprint indicator.
 1. Solder one pad.
 ![one pad - diode](DIODECLOSEUPIMG1)
 2. While holding diode with tweezers, reflow solder and place diode down on pad.
@@ -47,16 +47,25 @@ you may need to reflow and add more solder a couple times before an adequate con
 \- The LED order is somewhat outlined ![LED order](LEDORDERIMG) and should be followed in order when building.
 1. Solder one pad. (it may be easier to solder all 4 pads before placing LED down when installing WS2812B LEDs)
 ![sk6812 mini e one pad](LEDCLOSEUPIMG1)
-![ws2812b 4 pads](https://i.imgur.com/eAuOY2N.jpeg)
+![ws2812b 4 pads](LEDCLOSEUPIMG2)
 2. While holding LED with tweezers, reflow solder and place LED down on pad.
-![sk6812 mini e placed](LEDCLOSEUPIMG2)
-![ws2812b placed](LEDCLOSEUPIMG3)
+![sk6812 mini e placed](LEDCLOSEUPIMG3)
+![ws2812b placed](LEDCLOSEUPIMG4)
 3. Solder remaining pads.
-![sk6812 mini e complete](LEDCLOSEUPIMG4)
+![sk6812 mini e complete](LEDCLOSEUPIMG5)
+
+## Hotswap sockets
+1. Solder one pad.
+![Hot swap socket foot print soldered](SOCKETCLOSEUPIMG1)
+2. While holding hotswap socket (fingers are fine), reflow solder and place socket down on pad.
+![Hot swap socket one pin soldered](SOCKETCLOSEUPIMG2)
+3. Solder other pad.
+![Hot swap socket finished](SOCKETCLOSEUPIMG3)
+- Note, don't hesitate to use a little extra solder, as that will help secure the socket and prevent it from being ripped off.
 
 ## Microcontrollers
 **Orientation**: Both microcontrollers CONTROLLERPLACEMENT.
-- Note, it is recommended to flash each microcontroller prior to soldering. See [firmware](d#firmware) section for more.
+- Note, it is recommended to flash each microcontroller prior to soldering. See [firmware](#firmware) section for more.
 1. Insert headers from front, solder in from the back.
 ![headers inserted](CONTROLLERCLOSEUPIMG1)
 2. Place microcontroller CONTROLLERPLACEMENT. 
@@ -67,30 +76,42 @@ you may need to reflow and add more solder a couple times before an adequate con
 
 ## OLEDs
 1. Insert headers from front, solder in from the back.
+![Oled placed](OLEDCLOSEUPIMG1)
 2. Solder only one of pins to begin with.
+![oled back one pin soldered](OLEDCLOSEUPIMG2)
 3. While reflowing solder joint, position OLED so that it is level & straight.
 4. Solder remaining pins and clip extra length of pins.
+![oled finished](OLEDCLOSEUPIMG3)
 
 ## Misc.
 ### TRRS jacks
 1. Position TRRS jack on front of PCB and secure with tape.
+![trrs jack placed](TRRSCLOSEUPIMG1)
 2. Apply solder to all four pins.
+![trrs jack finished](TRRSCLOSEUPIMG2)
 ### Reset switches
 1. Solder one pad.
+![reset switch placed](RESETCLOSEUPIMG1)
 2. While holding switch with tweezers, refolw solder and place switch down on pad.
-3. Solder remaining 3 pads.
-### Hotswap sockets
-1. Solder one pad.
-2. While holding hotswap socket (fingers are fine), reflow solder and place socket down on pad.
-3. Solder other pad.
-- Note, don't hesitate to use a little extra solder, as that will help secure the socket and prevent it from being ripped off.
-### Encoders
-1. Secure in place using tape or hands.
-2. Apply solder to all five pins.
+3. Solder remaining pads.
+![reset switch placed](RESETCLOSEUPIMG2)
+
+
 
 ## Firmware
+
+### QMK
+In qmk this keyboard can be found under QMKKEYBOARDNAME.
 To begin, follow the [QMK setup guide](https://docs.qmk.fm/#/newbs_getting_started). (if working from an existing installation, an [update](https://docs.qmk.fm/#/newbs_git_using_your_master_branch?id=updating-your-master-branch) may be needed.) \
 For flashing instructions, see [doc](https://docs.qmk.fm/#/newbs_flashing) or [video](https://www.youtube.com/watch?v=fuBJbdCFF0Q)
 
-#### Extra
+### KMK / PEG
+In Peg or KMK this keyboard can be found under KMKKEYBOARDNAME
+Peg can be downloaded [here](https://peg.software/), and the quick start can be seen [here](https://peg.software/docs/Peg_Client/#quick-start-and-testing).
+
+For Kmk can be downloaded [here](https://github.com/KMKfw/kmk_firmware) and the quick start can be seen [here](http://kmkfw.io/docs/Getting_Started#tldr-quick-start-guide)
+
+
+
+## Extra
 For questions, ask in [Boardsource Discord server](https://discord.gg/5qpqbgaTYz)

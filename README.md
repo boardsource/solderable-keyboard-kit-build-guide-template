@@ -5,6 +5,10 @@ Rising tides raise all ships, so I wanted to make a good place for anyone to sta
 Find and replace tags:
 * ```KEYBOARDNAME```
     - this is the keyboards name : string
+* ```QMKKEYBOARDNAME```
+    - keyboard path in qmk : string
+* ```KMKKEYBOARDNAME```
+    - keyboard path in qmk : string
 * ```KEYCAPSTYLE```
     - this is the style of keycaps : string (choc, mx, choc or mx)
 * ```SOCKETSTYLE```
@@ -38,17 +42,38 @@ Find and replace tags:
 * ```LEDORIENTATIONIMG2```
     -underglow:url
 * ```LEDCLOSEUPIMG1```
-    -perkey:url
+    -perkeypads soldered:url
 * ```LEDCLOSEUPIMG2```
-    -perkey:url
+    -underglow pads soldered:url
 * ```LEDCLOSEUPIMG3```
-    -underglow:url
+    -perkey placed:url
 * ```LEDCLOSEUPIMG4```
-    -underglow:url
+    -underglow placed:url
+* ```LEDCLOSEUPIMG5```
+    -perkey finished:url
 * ```CONTROLLERCLOSEUPIMG1```
     -header pins:url
 * ```CONTROLLERCLOSEUPIMG2```
     -placed:url
 * ```CONTROLLERCLOSEUPIMG3```
     -finished:url
-
+* ```OLEDCLOSEUPIMG1```
+    -placed:url
+* ```OLEDCLOSEUPIMG2```
+    -one pin soldered:url
+* ```OLEDCLOSEUPIMG3```
+    -finished:url
+* ```TRRSCLOSEUPIMG1```
+    -placed:url
+* ```TRRSCLOSEUPIMG2```
+    -finished:url
+* ```RESETCLOSEUPIMG1```
+    -one pin soldered:url
+* ```RESETCLOSEUPIMG2```
+    -finished:url
+* ```SOCKETCLOSEUPIMG1```
+    -one pad solder:url
+* ```SOCKETCLOSEUPIMG2```
+    -placed and reflowed:url
+* ```SOCKETCLOSEUPIMG3```
+    -finished:url
